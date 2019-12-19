@@ -1,9 +1,9 @@
-from sklearn.cluster import KMeans
-from sklearn import metrics
-from sys import maxsize
-from sklearn.manifold import TSNE
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.pylab as plt
+# from sklearn.cluster import KMeans
+# from sklearn import metrics
+# from sys import maxsize
+# from sklearn.manifold import TSNE
+# from mpl_toolkits.mplot3d import Axes3D
+# import matplotlib.pylab as plt
 import numpy as np
 
 
@@ -35,14 +35,13 @@ def read_combination_code(sourcePath):
 
 
 if __name__ == "__main__":
-
+    print("aaaaaaaaaa")
     np.set_printoptions(suppress=True, threshold=maxsize, precision=2)
 
     corr_sourcePath = r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/correct_neural_value/fc1/0.4"
     wrong_sourcePath = r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/wrong_neural_value/fc1/0.4"
     wrong_to_sourcePath = r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/wrong_to_neural_value/fc1/0.4"
 
-    print("lalalalalalalalala")
     corr_sumOfPicture, corr_numberOfKind, corr_combinationCode, corr_y_label = \
         read_combination_code(corr_sourcePath)
 
