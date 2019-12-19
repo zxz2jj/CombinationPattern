@@ -1,0 +1,160 @@
+第 0 类的错误预测结果： 16 
+
+[array([6], dtype=int64), array([6], dtype=int64), array([9], dtype=int64), array([6], dtype=int64), array([3], dtype=int64), array([8], dtype=int64), array([9], dtype=int64), array([9], dtype=int64), array([8], dtype=int64), array([2], dtype=int64), array([8], dtype=int64), array([8], dtype=int64), array([4], dtype=int64), array([8], dtype=int64), array([5], dtype=int64), array([7], dtype=int64)]
+
+第 1 类的错误预测结果： 6 
+
+[array([0], dtype=int64), array([7], dtype=int64), array([4], dtype=int64), array([7], dtype=int64), array([7], dtype=int64), array([7], dtype=int64)]
+
+第 2 类的错误预测结果： 64 
+
+[array([3], dtype=int64), array([3], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([7], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([3], dtype=int64), array([3], dtype=int64), array([4], dtype=int64), array([7], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([1], dtype=int64), array([4], dtype=int64), array([3], dtype=int64), array([0], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([7], dtype=int64), array([1], dtype=int64), array([7], dtype=int64), array([8], dtype=int64), array([1], dtype=int64), array([1], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([8], dtype=int64), array([4], dtype=int64), array([7], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([7], dtype=int64), array([7], dtype=int64), array([3], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([7], dtype=int64), array([1], dtype=int64), array([1], dtype=int64), array([3], dtype=int64), array([7], dtype=int64), array([8], dtype=int64), array([3], dtype=int64), array([3], dtype=int64), array([8], dtype=int64), array([3], dtype=int64), array([1], dtype=int64), array([3], dtype=int64)]
+
+第 3 类的错误预测结果： 1 
+
+ 
+	  7   dtype=int64   
+	  8   dtype=int64   
+	  5   dtype=int64   
+	  7   dtype=int64   
+	  5   dtype=int64   
+	  9   dtype=int64   
+	  5   dtype=int64   
+	  8   dtype=int64   
+	  7   dtype=int64   
+	  7   dtype=int64   
+	  9   dtype=int64   
+	  8   dtype=int64   
+	  5   dtype=int64  
+
+第 4 类的错误预测结果： 1 
+
+ 
+	  6   dtype=int64   
+	  9   dtype=int64   
+	  9   dtype=int64   
+	  1  dtype=int64   
+	  9   dtype=int64   
+	  8   dtype=int64   
+	  9   dtype=int64   
+	  9   dtype=int64   
+	  9   dtype=int64   
+	  9   dtype=int64   
+	  8   dtype=int64   
+	  9   dtype=int64   
+	  6   dtype=int64   
+	  8   dtype=int64   
+	  6   dtype=int64   
+	  9   dtype=int64   
+	  1  dtype=int64   
+	  7   dtype=int64  
+
+第 5 类的错误预测结果： 30 
+
+ 
+	  8   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  9   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  6   dtype=int64   
+	  9   dtype=int64   
+	  6   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  8   dtype=int64   
+	  9   dtype=int64   
+	  9   dtype=int64   
+	  3   dtype=int64   
+	  8   dtype=int64   
+	  3   dtype=int64   
+	  3   dtype=int64   
+	  6   dtype=int64   
+	  6   dtype=int64   
+	  9   dtype=int64   
+	  8   dtype=int64   
+	  9   dtype=int64   
+	  3   dtype=int64  
+
+第 6 类的错误预测结果： 35 
+
+ 
+	  0  dtype=int64   
+	  8   dtype=int64   
+	  1  dtype=int64   
+	  3   dtype=int64   
+	  0  dtype=int64   
+	  0  dtype=int64   
+	  8   dtype=int64   
+	  8   dtype=int64   
+	  8   dtype=int64   
+	  0  dtype=int64   
+	  5   dtype=int64   
+	  2   dtype=int64   
+	  0  dtype=int64   
+	  8   dtype=int64   
+	  1  dtype=int64   
+	  4   dtype=int64   
+	  0  dtype=int64   
+	  0  dtype=int64   
+	  8   dtype=int64   
+	  5   dtype=int64   
+	  0  dtype=int64   
+	  5   dtype=int64   
+	  8   dtype=int64   
+	  4   dtype=int64   
+	  5   dtype=int64   
+	  5   dtype=int64   
+	  1  dtype=int64   
+	  8   dtype=int64   
+	  4   dtype=int64   
+	  8   dtype=int64   
+	  0  dtype=int64   
+	  1  dtype=int64   
+	  8   dtype=int64   
+	  5   dtype=int64   
+	  5   dtype=int64  
+
+第 7 类的错误预测结果： 23 
+
+ 
+	  4   dtype=int64   
+	  8   dtype=int64   
+	  4   dtype=int64   
+	  2   dtype=int64   
+	  1  dtype=int64   
+	  9   dtype=int64   
+	  1  dtype=int64   
+	  1  dtype=int64   
+	  4   dtype=int64   
+	  2   dtype=int64   
+	  1  dtype=int64   
+	  1  dtype=int64   
+	  1  dtype=int64   
+	  9   dtype=int64   
+	  2   dtype=int64   
+	  9   dtype=int64   
+	  2   dtype=int64   
+	  2   dtype=int64   
+	  2   dtype=int64   
+	  1  dtype=int64   
+	  2   dtype=int64   
+	  4   dtype=int64   
+	  1  dtype=int64 
+
+
+第 8 类的错误预测结果： 24 
+
+    3   dtype=int64     9   dtype=int64     3   dtype=int64     3   dtype=int64     3   dtype=int64     3   dtype=int64     4   dtype=int64     6   dtype=int64     9   dtype=int64     9   dtype=int64     3   dtype=int64     3   dtype=int64     5   dtype=int64     3   dtype=int64     3   dtype=int64     3   dtype=int64     3   dtype=int64     1   dtype=int64     3   dtype=int64     3   dtype=int64     9   dtype=int64     2   dtype=int64     9   dtype=int64     3   dtype=int64 
+
+
+第 9 类的错误预测结果： 33 
+
+    4   dtype=int64      4   dtype=int64      5   dtype=int64      4   dtype=int64      0   dtype=int64      5   dtype=int64      4   dtype=int64      7   dtype=int64      0   dtype=int64      4   dtype=int64      5   dtype=int64      8   dtype=int64      4   dtype=int64      7   dtype=int64      7   dtype=int64      7   dtype=int64      7   dtype=int64      7   dtype=int64      4   dtype=int64      7   dtype=int64      4   dtype=int64      4   dtype=int64      4   dtype=int64      5   dtype=int64      4   dtype=int64      7   dtype=int64      7   dtype=int64      5   dtype=int64      4   dtype=int64      4   dtype=int64      3   dtype=int64      4   dtype=int64      8   dtype=int64  

@@ -1,0 +1,40 @@
+第 0 类的错误预测样本有： 4 
+
+[array([8]), array([7]), array([8]), array([6])]
+
+
+第 1 类的错误预测样本有： 3 
+
+[array([8]), array([3]), array([3])]
+
+第 2 类的错误预测样本有： 12 
+
+[array([7]), array([1]), array([1]), array([3]), array([1]), array([4]), array([1]), array([1]), array([8]), array([8]), array([3]), array([3])]
+
+第 3 类的错误预测样本有： 2 
+
+[array([7]), array([5])]
+
+第 4 类的错误预测样本有： 4 
+
+[array([6]), array([9]), array([9]), array([1])]
+
+第 5 类的错误预测样本有： 16 
+
+[array([9]), array([3]), array([9]), array([3]), array([3]), array([3]), array([3]), array([3]), array([3]), array([3]), array([0]), array([9]), array([9]), array([3]), array([3]), array([6])]
+
+第 6 类的错误预测样本有： 16 
+
+[array([0]), array([5]), array([4]), array([5]), array([0]), array([0]), array([1]), array([5]), array([1]), array([0]), array([5]), array([0]), array([0]), array([5]), array([2]), array([4])]
+
+第 7 类的错误预测样本有： 15 
+
+[array([5]), array([3]), array([1]), array([9]), array([1]), array([9]), array([2]), array([1]), array([4]), array([9]), array([1]), array([4]), array([2]), array([2]), array([2])]
+
+第 8 类的错误预测样本有： 7 
+
+[array([4]), array([9]), array([0]), array([3]), array([0]), array([1]), array([9])]
+
+第 9 类的错误预测样本有： 14 
+
+[array([4]), array([5]), array([4]), array([0]), array([1]), array([3]), array([4]), array([3]), array([4]), array([4]), array([4]), array([5]), array([7]), array([8])]
