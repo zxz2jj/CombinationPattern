@@ -47,7 +47,7 @@ def set_of_pattern(pattern_list):
 
 if __name__ == "__main__":
 
-    train_corr_sourcePath = r"MNIST_data/training_data/correct_neural_value/fc1/0.2"
+    train_corr_sourcePath = r"MNIST_data/training_data/correct_neural_value/fc1/0.05"
     train_corr_sumOfPicture, train_corr_numberOfKind, train_corr_combinationCode, train_corr_y_label = \
         read_combination_code(train_corr_sourcePath)
     train_corr_pattern_by_kind = reshape_list(train_corr_combinationCode, train_corr_numberOfKind)
@@ -65,7 +65,7 @@ if __name__ == "__main__":
                     if p in train_corr_pattern_by_kind[j]:
                         print("第", i, "类和第", j, "类有重复pattern", '\n', p, file=f)
 
-    test_corr_sourcePath = r"MNIST_data/testing_data/correct_neural_value/fc1/0.2"
+    test_corr_sourcePath = r"MNIST_data/testing_data/correct_neural_value/fc1/0.05"
     _ts_sum, test_corr_numberOfKind, test_corr_combinationCode, _ts_y = read_combination_code(test_corr_sourcePath)
     test_corr_pattern_by_kind = reshape_list(test_corr_combinationCode, test_corr_numberOfKind)
     test_corr_pattern_by_kind, new_test_corr_numberOfKind = set_of_pattern(test_corr_pattern_by_kind)

@@ -1,5 +1,3 @@
-#!/usr/bin/python
-# -*- coding:utf8 -*-
 import tensorflow.examples.tutorials.mnist.input_data as input_data
 import numpy as np
 
@@ -41,32 +39,33 @@ def classify_data_by_classes(
         print("\n", file=f)
 
 
-# # 分类训练样本
-# f_train_0 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/training_data/train_images_class_0.txt", 'a')
-# f_train_1 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_1.txt", 'a')
-# f_train_2 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_2.txt", 'a')
-# f_train_3 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_3.txt", 'a')
-# f_train_4 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_4.txt", 'a')
-# f_train_5 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_5.txt", 'a')
-# f_train_6 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_6.txt", 'a')
-# f_train_7 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_7.txt", 'a')
-# f_train_8 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_8.txt", 'a')
-# f_train_9 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_9.txt", 'a')
-#
-# classify_data_by_classes(mnist.train, f_train_0, f_train_1, f_train_2, f_train_3, f_train_4,
-#                          f_train_5, f_train_6, f_train_7, f_train_8, f_train_9)
+if __name__ == "__main__":
+    # # 分类训练样本
+    # f_train_0 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/training_data/train_images_class_0.txt", 'a')
+    # f_train_1 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_1.txt", 'a')
+    # f_train_2 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_2.txt", 'a')
+    # f_train_3 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_3.txt", 'a')
+    # f_train_4 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_4.txt", 'a')
+    # f_train_5 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_5.txt", 'a')
+    # f_train_6 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_6.txt", 'a')
+    # f_train_7 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_7.txt", 'a')
+    # f_train_8 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_8.txt", 'a')
+    # f_train_9 = open(r"/Users/zz/PycharmProjects/fashionMnist/MNIST_data/training_data/train_images_class_9.txt", 'a')
+    #
+    # classify_data_by_classes(mnist.train, f_train_0, f_train_1, f_train_2, f_train_3, f_train_4,
+    #                          f_train_5, f_train_6, f_train_7, f_train_8, f_train_9)
 
-# 分类测试样本
-f_test_0 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_0.txt", 'a')
-f_test_1 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_1.txt", 'a')
-f_test_2 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_2.txt", 'a')
-f_test_3 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_3.txt", 'a')
-f_test_4 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_4.txt", 'a')
-f_test_5 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_5.txt", 'a')
-f_test_6 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_6.txt", 'a')
-f_test_7 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_7.txt", 'a')
-f_test_8 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_8.txt", 'a')
-f_test_9 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_9.txt", 'a')
+    # 分类测试样本
+    f_test_0 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_0.txt", 'a')
+    f_test_1 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_1.txt", 'a')
+    f_test_2 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_2.txt", 'a')
+    f_test_3 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_3.txt", 'a')
+    f_test_4 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_4.txt", 'a')
+    f_test_5 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_5.txt", 'a')
+    f_test_6 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_6.txt", 'a')
+    f_test_7 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_7.txt", 'a')
+    f_test_8 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_8.txt", 'a')
+    f_test_9 = open(r"/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/test_images_class_9.txt", 'a')
 
-classify_data_by_classes(mnist.test, f_test_0, f_test_1, f_test_2, f_test_3, f_test_4,
-                         f_test_5, f_test_6, f_test_7, f_test_8, f_test_9)
+    classify_data_by_classes(mnist.test, f_test_0, f_test_1, f_test_2, f_test_3, f_test_4,
+                             f_test_5, f_test_6, f_test_7, f_test_8, f_test_9)

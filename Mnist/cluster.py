@@ -95,9 +95,9 @@ if __name__ == "__main__":
 
     np.set_printoptions(suppress=True, threshold=maxsize, precision=2)
 
-    corr_source_path = r"MNIST_data/testing_data/correct_neural_value/fc1/0.2"
-    wrong_source_path = r"MNIST_data/testing_data/wrong_neural_value/fc1/0.2"
-    wrong_to_source_path = r"MNIST_data/testing_data/wrong_to_neural_value/fc1/0.2"
+    corr_source_path = r"MNIST_data/testing_data/correct_neural_value/fc1/0.05"
+    wrong_source_path = r"MNIST_data/testing_data/wrong_neural_value/fc1/0.05"
+    wrong_to_source_path = r"MNIST_data/testing_data/wrong_to_neural_value/fc1/0.05"
 
     corr_sumOfPicture, corr_numberOfKind, corr_combinationCode, corr_y_label = \
         read_combination_code(corr_source_path)
@@ -110,8 +110,9 @@ if __name__ == "__main__":
 
     # print(type(corr_y_label))
 
-    # # 将测试集的所有正确样本path进行t-SNE降维并展示（2维）
-    # t_sne_visualization(combination_pattern=corr_combinationCode, colour_label=corr_y_label, size=1)
+    # 将测试集的所有正确样本path进行t-SNE降维并展示（2维）
+    print(len(corr_combinationCode))
+    t_sne_visualization(combination_pattern=corr_combinationCode, colour_label=corr_y_label, size=1)
     #
     # # 将测试集的所有样本path进行t-SNE降维并展示（2维），相同原始类的样本为同一颜色
     # combinationCode_cw = list(corr_combinationCode) + list(wrong_combinationCode)

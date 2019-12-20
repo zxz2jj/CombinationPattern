@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="324f9c5c-b2c5-4a5a-94d0-29a261a28ff7" name="Default Changelist" comment="" />
+    <list default="true" id="324f9c5c-b2c5-4a5a-94d0-29a261a28ff7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/testing_data/correct_neural_value/fc1/0.2/clusterResult_.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_data/testing_data/correct_neural_value/fc1/0.2/clusterResult_.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/testing_data/correct_neural_value/fc1/0.2/测试集正确模式与训练集正确模式匹配情况.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MNIST_data/testing_data/correct_neural_value/fc1/0.2/测试集正确模式与训练集正确模式匹配情况.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classify_picture.py" beforeDir="false" afterPath="$PROJECT_DIR$/classify_picture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encode.py" beforeDir="false" afterPath="$PROJECT_DIR$/encode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/pattern_match.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,9 +155,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.pattern_match" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.cluster" />
         <item itemvalue="Python.encode" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.get_neural_value" />
       </list>
     </recent_temporary>
