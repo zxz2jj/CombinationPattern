@@ -104,22 +104,22 @@ def encode(image_neural_value,
 
 
 if __name__ == "__main__":
-    correct_south_path = "/Users/zz/PycharmProjects/Mnist/MNIST_data/training_data/correct_neural_value/fc1"
-    coding_examples_path = "/Users/zz/PycharmProjects/Mnist/MNIST_data/training_data/correct_neural_value/fc1"
-    # coding_examples_path = "/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/correct_neural_value/fc1"
-    # coding_examples_path = "/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/wrong_neural_value/fc1"
-    # coding_examples_path = "/Users/zz/PycharmProjects/Mnist/MNIST_data/testing_data/wrong_to_neural_value/fc1"
+    correct_south_path = "MNIST_data/training_data/correct_neural_value/fc1"
+    # coding_examples_path = "MNIST_data/training_data/correct_neural_value/fc1"
+    # coding_examples_path = "MNIST_data/testing_data/correct_neural_value/fc1"
+    coding_examples_path = "MNIST_data/testing_data/wrong_neural_value/fc1"
+    # coding_examples_path = "MNIST_data/testing_data/wrong_to_neural_value/fc1"
     non_class_l_avg, all_class_avg, class_l_avg = get_neural_value_and_average(correct_south_path, 256, 10)
     # class_code = []
     for kind in range(10):
-        input_path = coding_examples_path + r'/class' + str(kind) + '_correct_NeuralValue.txt'
         # input_path = coding_examples_path + r'/class' + str(kind) + '_correct_NeuralValue.txt'
-        # input_path = coding_examples_path + r'/class' + str(kind) + '_wrong_NeuralValue.txt'
+        # input_path = coding_examples_path + r'/class' + str(kind) + '_correct_NeuralValue.txt'
+        input_path = coding_examples_path + r'/class' + str(kind) + '_wrong_NeuralValue.txt'
         # input_path = coding_examples_path + r'/wrong_to_' + str(kind) + 'NeuralValue.txt'
         output_path = open(coding_examples_path + r'/class' + str(kind) + '_combination_code.txt', 'w')
         neural_value = load_neural_value(input_path, 256)
         for each_image in neural_value:
-            pattern = encode(each_image, kind, 0.4, 256, non_class_l_avg)
+            pattern = encode(each_image, kind, 0.2, 256, non_class_l_avg)
             print(pattern, file=output_path)
         # class_code.append(encode(class_l_avg[kind], kind, 0.4, 256, non_class_l_avg))
     # print(class_code)

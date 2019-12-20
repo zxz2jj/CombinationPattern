@@ -2,19 +2,19 @@ from cluster import read_combination_code
 
 
 # 测试正确模式的重叠情况
-def reshape_list(combinationCode, numberOfKind_list):
+def reshape_list(combination_pattern, numberOfKind_list):
     """
     将combinationCode按照类别数量进行划分为10个子列表
-    :param combinationCode:
+    :param combination_pattern:
     :param numberOfKind_list:
     :return:
     """
     list_by_kind = []
     end = 0
-    for i in range(1, 11):
+    for k in range(10):
         start = end
-        end += numberOfKind_list[i]
-        list_temp = combinationCode[int(start):int(end)]
+        end += numberOfKind_list[k]
+        list_temp = combination_pattern[start:end]
         list_by_kind.append(list_temp)
 
     return list_by_kind
@@ -47,7 +47,7 @@ def set_of_pattern(pattern_list):
 
 if __name__ == "__main__":
 
-    train_corr_sourcePath = r"MNIST_data/training_data/correct_neural_value/fc1/0.4"
+    train_corr_sourcePath = r"MNIST_data/training_data/correct_neural_value/fc1/0.2"
     train_corr_sumOfPicture, train_corr_numberOfKind, train_corr_combinationCode, train_corr_y_label = \
         read_combination_code(train_corr_sourcePath)
     train_corr_pattern_by_kind = reshape_list(train_corr_combinationCode, train_corr_numberOfKind)
@@ -65,7 +65,7 @@ if __name__ == "__main__":
                     if p in train_corr_pattern_by_kind[j]:
                         print("第", i, "类和第", j, "类有重复pattern", '\n', p, file=f)
 
-    test_corr_sourcePath = r"MNIST_data/testing_data/correct_neural_value/fc1/0.4"
+    test_corr_sourcePath = r"MNIST_data/testing_data/correct_neural_value/fc1/0.2"
     _ts_sum, test_corr_numberOfKind, test_corr_combinationCode, _ts_y = read_combination_code(test_corr_sourcePath)
     test_corr_pattern_by_kind = reshape_list(test_corr_combinationCode, test_corr_numberOfKind)
     test_corr_pattern_by_kind, new_test_corr_numberOfKind = set_of_pattern(test_corr_pattern_by_kind)
